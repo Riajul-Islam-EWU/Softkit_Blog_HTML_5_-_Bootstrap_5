@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softkit Blog Practice</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="./images/softkit_logo_vBx_icon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body style="font-family: Open Sans, sans-serif">
+    <section class="container-md p-3 mx-0 mw-100">
+
+        <nav>
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-between">
+                    <div>
+                        <a href="/">
+                            <img src="./images/Softkit_logo.png" alt="Laracasts Logo" width="90px" height="90px"
+                                class="d-inline-block align-top">
+                        </a>
+                    </div>
+                    <div class="pt-3">
+                        <a href="/" class="text-uppercase text-dark card-link"
+                            style="text-decoration: none; font-size: small; font-weight:bold;">Home
+                            Page</a>
+
+                        <a href="#"
+                            class="d-inline-block text-uppercase text-white bg-primary card-link ml-3 py-3 px-4 rounded-pill"
+                            style="text-decoration: none; font-size: small; font-weight:bold;">
+                            Subscribe for Updates
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header class="mx-auto mt-4 text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <h2>
+                        Latest <span class="text-primary">Development News From </span>Softkit
+                    </h2>
+                    <h6 class="inline-flex mt-2"><span style="font-weight: bold;">By Riajul Islam</span><img
+                            src="./images/softkit_logo_vBx_icon.ico" alt="Head of Softkit" width="50px" height="50px">
+                    </h6>
+                </div>
+                <div class="col-md-6">
+                    <p class="mt-5">
+                        Another year. Another update. We're refreshing our organization with new content.
+                        I'm going to keep you guys up to speed with what's going on!
+                    </p>
+                </div>
+            </div>
+            <!-- continue from here -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mt-4 d-flex justify-content-center">
+                        <!-- Category -->
+                        <div class="mx-3">
+                            <select class="bg-light py-1 px-3 rounded-pill fw-bold">
+                                <option value="category" disabled selected>Category</option>
+                                <option value="personal">Personal</option>
+                                <option value="business">Business</option>
+                            </select>
+                        </div>
+                        <!-- Other Filters -->
+                        <div class="mx-3">
+                            <select class="bg-light py-1 px-3 rounded-pill fw-bold">
+                                <option value="category" disabled selected>Other Filters
+                                </option>
+                                <option value="regular">Regular
+                                </option>
+                                <option value="special">Special
+                                </option>
+                            </select>
+                        </div>
+                        <!-- Search -->
+                        <div class="mx-3">
+                            <form method="GET" action="#">
+                                <input type="text" name="search" placeholder="Find something"
+                                    class="bg-light py-1 px-3 rounded-pill fw-bold">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main></main>
+
+        <footer class="bg-light border rounded-3 text-center p-5 mt-5 mb-3 mx-2">
+            <img src="./images/softkit_logo_vBx_icon.ico" alt="Softkit logo" class="mx-auto" style="width: 135px;">
+            <h2>Stay in touch with the latest posts</h2>
+            <p>Promise to keep the inbox clean. No bugs.</p>
+
+            <div class="mt-5">
+                <form method="POST" action="#" class="d-flex justify-content-center">
+                    <div class="bg-white border border-warning rounded-pill fw-bold">
+                        <label for="email" class="ps-3">
+                            <img src="./images/mailbox-icon.svg" alt="mailbox letter">
+                        </label>
+
+                        <input id="email" type="text" placeholder="Your email address"
+                            class="bg-white border border-white">
+
+                        <button type="submit" class="bg-primary py-2 px-4 text-white border rounded-pill">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
